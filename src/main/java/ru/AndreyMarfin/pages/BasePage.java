@@ -9,7 +9,7 @@ import java.time.Duration;
 import static org.openqa.selenium.support.PageFactory.initElements;
 
 public abstract class BasePage {
-    WebDriver driver;
+    static WebDriver driver;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
